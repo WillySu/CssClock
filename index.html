@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>CSS Clock</title>
+    <script src="src/cssClock.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/cssClock.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
+<script>
+  const css = new CssClock({
+    side: 128,
+    root: document.getElementById('root')
+  });
+</script>

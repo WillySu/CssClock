@@ -1,0 +1,34 @@
+.clock-holder {
+  border-radius: 50%;
+  border: 5px solid black;
+  position: relative;
+}
+
+.hour-div,
+.second-bar,
+.minute-bar,
+.hour-bar {
+  position: absolute;
+}
+
+.second-bar,
+.minute-bar,
+.hour-bar {
+  border-style: solid none solid none;
+  border-bottom-color: transparent;
+}
+
+.second-bar {
+  width: 1px;
+  border-top-color: red;
+}
+
+.minute-bar {
+  width: 3px;
+  border-top-color: blue;
+}
+
+.hour-bar {
+  width: 5px;
+  border-top-color: black;
+}
